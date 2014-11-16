@@ -1,7 +1,7 @@
 docker-config
 =============
 
-*New/experimental*
+***New/experimental***
 
 Docker image designed for editing config files. Currently just installs Git and Vim.
 
@@ -39,7 +39,7 @@ for me:
 
 If you want to configure multiple Docker containers in this way, run a new config container
 instance for each one using a different SSH port. You don't need to keep the config container
-running when youv'e finished editing, so you can always just shut it down and start a new one.
+running when you've finished editing, so you can always just shut it down and start a new one.
 
 Todo
 ----
