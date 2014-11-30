@@ -1,0 +1,10 @@
+[color]
+        ui = true
+        diff = true
+[diff]
+        renamelimit = 5000
+[push]
+        default = simple
+[core]
+        excludesfile = /home/lars/.gitignore
+

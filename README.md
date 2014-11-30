@@ -41,6 +41,17 @@ If you want to configure multiple Docker containers in this way, run a new confi
 instance for each one using a different SSH port. You don't need to keep the config container
 running when you've finished editing, so you can always just shut it down and start a new one.
 
+Git config
+----------
+
+A work in progrss but you can configure the following:
+
+* GIT_AUTHOR_NAME
+* GIT_AUTHOR_EMAIL
+
+There's also a .gitconfig file non-user specific which can be changed by building
+a new container with your own .gitocnfig.
+
 Todo
 ----
 
