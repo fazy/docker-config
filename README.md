@@ -19,7 +19,11 @@ config directories.
 
 Run an instance of the config container:
 
-    docker run -d -p 0.0.0.0:<port>:22 -e ROOT_PASS="<password>" --volumes-from <container-id> fazy/config
+    docker run -d \
+        -p 0.0.0.0:<port>:22 \
+        -e ROOT_PASS="<password>" \
+        --volumes-from <container-id> \
+        fazy/config
 
 Change `<...>` as follows:
 
