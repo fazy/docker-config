@@ -13,4 +13,3 @@ RUN chmod +x /opt/run/*.sh
 ADD git/.gitconfig /root/
 
 CMD ["/opt/run/init.sh"]
-
